@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A1 Runner — privatliv / privacy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1b1b1f; --bg: #ffffff; --muted: #5f6068; --line: #d6d7dc; --link: #0b5cad; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ececf0; --bg: #1d1e22; --muted: #a3a4ad; --line: #3a3b42; --link: #7fb3ec; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  a { color: var(--link); }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 24px; }
+  ul { padding-left: 22px; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 48px 0; }
+  nav { font-size: 14px; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#english">English below</a></nav>
+<h1>A1 Runner — privatliv</h1>
+<p class="lead">Udvidelse til Microsoft Edge og Google Chrome, udgivet af Plant Supervision ApS. Senest ændret 9. oktober 2026.</p>
+
+<h2>Hvad A1 Runner gør</h2>
+<p>A1 Runner indsender A1-ansøgninger (afgørelse om social sikring ved arbejde i udlandet) på Virk for de medarbejdere, som jeres egen PS Hub har sat i kø. Den arbejder i den browserfane, hvor du selv er logget ind på Virk med MitID Erhverv, og kun når du har startet en kørsel med en kørselskode fra jeres PS Hub.</p>
+
+<h2>Hvilke oplysninger den behandler — og hvor de går hen</h2>
+<ul>
+  <li><strong>Kørselskoden</strong> du indsætter: jeres PS Hub-servers adresse, en engangsnøgle (gyldig i kort tid), virksomhedens CVR-nr. og antal personer.</li>
+  <li><strong>Fra jeres PS Hub</strong> — kun fra den server, kørselskoden nævner, og kun hvis den er godkendt i A1 Runner — for hver person: navn, CPR-nr., ansættelsesdato, stillingsbetegnelse, perioden, virksomhedens CVR-nr. og landene — og virksomhedens indsender på Virk (navn og telefon), som virksomheden selv har sat i PS Hub.</li>
+  <li><strong>Til Virk</strong> (virk.atp.dk): de samme oplysninger skrives ind i Virks formular i din fane, som du selv ville gøre det, og ansøgningen indsendes.</li>
+  <li><strong>Tilbage til jeres PS Hub</strong>: udfaldet for hver person — indsendt med Virks sagsnummer og kvitteringen som PDF (med CPR-nr. skjult), eller ikke indsendt med årsagen — og en kørselslog (med CPR-nr. skjult).</li>
+</ul>
+<p>Oplysningerne går kun mellem A1 Runner, jeres egen PS Hub og Virk. A1 Runner sender intet til andre: ingen statistik, ingen sporing, ingen reklame.</p>
+
+<h2>Hvad den gemmer på pc'en</h2>
+<ul>
+  <li>De PS Hub-servere, A1 Runner er godkendt til, og et id for installationen.</li>
+  <li>Under en kørsel: sags-id og nøgle for den person, der er i gang — så PS Hub får besked, hvis vinduet lukkes midt i. Det slettes, når personen er færdig, og når browseren lukkes.</li>
+  <li><strong>CPR-numre gemmes aldrig.</strong> Et CPR-nr. findes kun i hukommelsen, mens den person indsendes.</li>
+</ul>
+
+<h2>Fejlrapport</h2>
+<p>Kun hvis du selv klikker <em>Gem fejlrapport</em>, gemmes en fil på din pc. Den viser Virks formular, som den stod, da en person fejlede — formularens egne ord og opbygning — med alle indtastede værdier, navne, CPR-numre og lange tal fjernet. Du bestemmer selv, om den sendes videre.</p>
+
+<h2>Tilladelser i browseren</h2>
+<ul>
+  <li><strong>Sidepanel</strong> — A1 Runner vises i browserens sidepanel.</li>
+  <li><strong>Lager</strong> — til det, der står under „Hvad den gemmer på pc'en“.</li>
+  <li><strong>virk.atp.dk</strong> — den eneste hjemmeside, A1 Runner kan læse og udfylde. Den kan ikke se andre sider eller din browserhistorik, og den sender aldrig dine PS Hub-login-cookies.</li>
+</ul>
+
+<h2>Ansvar og kontakt</h2>
+<p>Den virksomhed, der indsender A1-ansøgningerne, er dataansvarlig for medarbejdernes oplysninger i sin PS Hub. Spørgsmål om dine egne oplysninger stilles til den virksomhed. Spørgsmål om selve A1 Runner: Plant Supervision ApS, <a href="mailto:it@plant-supervision.com">it@plant-supervision.com</a>.</p>
+
+<hr />
+
+<h1 id="english">A1 Runner — privacy</h1>
+<p class="lead">An extension for Microsoft Edge and Google Chrome, published by Plant Supervision ApS. Last changed 9 October 2026.</p>
+
+<h2>What A1 Runner does</h2>
+<p>A1 Runner files A1 applications (a decision on social security cover when working abroad) on Virk, the Danish authorities' business portal, for the employees your own PS Hub has queued. It works in the browser tab where you are signed in to Virk with MitID Erhverv, and only once you have started a run with a run code from your PS Hub.</p>
+
+<h2>What it handles — and where it goes</h2>
+<ul>
+  <li><strong>The run code</strong> you paste: your PS Hub server's address, a one-time key (valid briefly), the company's CVR number and the number of people.</li>
+  <li><strong>From your PS Hub</strong> — only from the server the run code names, and only if it is approved in A1 Runner — for each person: name, CPR number, employment start date, job title, the period, the company's CVR number and the countries — and the company's sender on Virk (name and phone), which the company sets in PS Hub itself.</li>
+  <li><strong>To Virk</strong> (virk.atp.dk): the same details are typed into Virk's form in your tab, as you would type them, and the application is filed.</li>
+  <li><strong>Back to your PS Hub</strong>: the outcome for each person — filed, with Virk's case number and the receipt as a PDF (CPR numbers hidden), or not filed, with the reason — and a run log (CPR numbers hidden).</li>
+</ul>
+<p>Data only travels between A1 Runner, your own PS Hub and Virk. A1 Runner sends nothing to anyone else: no analytics, no tracking, no advertising.</p>
+
+<h2>What it keeps on the PC</h2>
+<ul>
+  <li>The PS Hub servers A1 Runner is approved for, and an id for the installation.</li>
+  <li>During a run: the case id and key of the person in progress — so PS Hub is told if the window is closed half-way. It is deleted when the person is done, and when the browser closes.</li>
+  <li><strong>CPR numbers are never stored.</strong> A CPR number exists only in memory while that person is being filed.</li>
+</ul>
+
+<h2>Error report</h2>
+<p>Only if you click <em>Gem fejlrapport</em> is a file saved on your PC. It shows Virk's form as it stood when a person failed — the form's own words and structure — with every typed value, name, CPR number and long number removed. You decide whether to pass it on.</p>
+
+<h2>Permissions in the browser</h2>
+<ul>
+  <li><strong>Side panel</strong> — A1 Runner is shown in the browser's side panel.</li>
+  <li><strong>Storage</strong> — for what is listed under "What it keeps on the PC".</li>
+  <li><strong>virk.atp.dk</strong> — the only website A1 Runner can read and fill in. It cannot see other sites or your browsing history, and it never sends your PS Hub sign-in cookies.</li>
+</ul>
+
+<h2>Responsibility and contact</h2>
+<p>The company filing the A1 applications is the data controller for its employees' data in its PS Hub; questions about your own data go to that company. Questions about A1 Runner itself: Plant Supervision ApS, <a href="mailto:it@plant-supervision.com">it@plant-supervision.com</a>.</p>
+</main>
+</body>
+</html>
